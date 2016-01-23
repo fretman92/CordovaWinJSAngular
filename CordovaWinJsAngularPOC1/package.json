@@ -1,0 +1,12 @@
+{
+    "name": "CordovaWinJsAngularPOC1",
+    "version": "1.0.0",
+    "dependencies": {
+        "angular": "~1.4.9"
+    },
+    "devDependencies": {
+        "angular-winjs": "~4.4.0",
+        "karma": "~0.10",
+        "winjs": "4.4.x"
+    }
+}

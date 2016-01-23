@@ -1,0 +1,6 @@
+{
+    "name": "CordovaWinJsAngularPOC1",
+    "dependencies": {
+        "jquery": "~2.2.0"
+    }
+}
