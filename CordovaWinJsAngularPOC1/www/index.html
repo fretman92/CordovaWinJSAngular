@@ -19,34 +19,22 @@
     <link href="./css/index.css" rel="stylesheet" />
 </head>
 <body>
-    <div ng-controller="MyController">
-        Hello {{greetMe}}
+    <div ng-view class="app-view"></div>
 
-    </div>
-
-    <!-- Shows up on the bottom of the screen, use right-click or touch edgy gesture to show -->
-    <win-app-bar>
-        <win-app-bar-command icon="'home'" label="'Home'"></win-app-bar-command>
-        <win-app-bar-separator></win-app-bar-separator>
-        <win-app-bar-command icon="'save'" label="'Save'"></win-app-bar-command>
-        <win-app-bar-content>
-            <win-auto-suggest-box placeholder-text="'Search'"></win-auto-suggest-box>
-        </win-app-bar-content>
-        <win-app-bar-command type="'toggle'" icon="'world'" label="'Planet'"></win-app-bar-command>
-    </win-app-bar>
-
-
-    <script src="./scripts/base.js"></script>
-    <script src="./scripts/ui.js"></script>
+    <script src="./scripts/libs/base.js"></script>
+    <script src="./scripts/libs/ui.js"></script>
     <!-- Cordova reference (must be added AFTER base.js reference) -->
     <!-- Référence Cordova ajoutée à votre application une fois générée. -->
     <script type="text/javascript" src="./cordova.js"></script>
     <script src="./scripts/platformOverrides.js"></script>
 
-    <script src="./scripts/jquery.js"></script>
-    <script src="./scripts/angular.js"></script>
-    <script src="./scripts/angular-winjs.js"></script>
+    <script src="./scripts/libs/jquery.js"></script>
+    <script src="./scripts/libs/angular.js"></script>
+    <script src="./scripts/libs/angular-route.js"></script>
+    <script src="./scripts/libs/angular-winjs.js"></script>
+
     <script src="./scripts/index.js"></script>
     <script src="./scripts/myApp.js"></script>
+    <script src="./scripts/appBundleGrunt.js"></script>
 </body>
 </html>
